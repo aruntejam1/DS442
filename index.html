@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+	<link rel="manifest" href="icon/site.webmanifest">
+	<link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>DS/CMPSC 442: Artificial Intelligence</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/navbar-fixed-top.css" rel="stylesheet">
+
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="https://ist.psu.edu">
+					<img src="./img/PSUIST.png" style="height:50px">
+				</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- <a class="navbar-brand" href="#">IST 402.4, Fall 2019</a> -->
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Home</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+
+	<div class="container">
+
+		<!-- Main component for a primary marketing message or call to action -->
+		<div class="jumbotron">
+
+			<p>DS/CMPSC 442 (Spring 2020)</p>
+
+			<h2 style="font-size: 48px;"><strong>Artificial Intelligence</strong></h2>
+
+			<ul style="font-size: 20px; margin-top: 40px;">
+				<li><Strong>Course number</Strong>: DS/CMPSC 442 - IST/CS Seniors & Juniors, and fresh graduate students are welcome!</li>
+				<li><strong>Instructor</strong>: <a href="http://amulyayadav.com" target="_blank">Amulya Yadav</a>
+					(amulya@psu.edu)</li>
+				<li><strong>Time</strong>: Spring 2020, <strong>Tuesday and Thursday 1:35-2:50 PM</strong></li>
+				<li><Strong>Course Location</Strong>: Westgate 206</li>
+				<li><Strong>Office Hours</Strong>: TBD</li>
+			</ul>
+		</div>
+
+
+		<!--<h3><a href="./pdf/Syllabus/CourseDescription.pdf">Course Description and Evalutation Criteria Document</a></h3>-->
+
+		<h3>Classes</h3>
+
+		<table class="table table-striped">
+			<col width="200">
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Lecture Topic</th>
+					<th>Readings</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<td>
+						Week 1<br/>Tu 1/14
+					</td>
+					<td>
+						1. Course Mechanics & Intro to AI <a href="https://psu.box.com/s/wzs2orfv91s4mo6uut2v4jggrr57u08n">Slides</a>
+					</td>
+					<td>
+
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 1<br/>Th 1/16
+					</td>
+					<td>
+						2. Intro to AI <a href="https://psu.box.com/s/oopxauyxyrm8eishz61d42v0ssb8dnrt">Slides</a>
+					</td>
+					<td>
+						Chapter 1 & 2, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 2<br/>Tu 1/21
+					</td>
+					<td>
+						3. Uninformed Search <a href="https://psu.box.com/s/drpqyzqlrcqu45cgk0u2er6qhofrvsa2">Slides</a>
+					</td>
+					<td>
+						Chapter 3.1-3.4, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 2<br/>Th 1/23
+					</td>
+					<td>
+						4. A* Search and Heuristics <a href="https://psu.box.com/s/mqpvc3zjvmd7agnn6u6rzx2fv8juvnd3">Slides</a>
+					</td>
+					<td>
+						Chapter 3.5-3.6, AIMA
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 3<br/>Tu 1/28
+					</td>
+					<td>
+						5. CSP I <a href="https://psu.box.com/s/thpdwck363p3mw6317b6y17e3tmqh2wc">Slides</a>
+					</td>
+					<td>
+						Chapter 6.1, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 3<br/>Th 1/30
+					</td>
+					<td>
+						6. CSP II <a href="https://psu.box.com/s/siiocz5nqherud4btotyo4xb35bjxe3x">Slides</a>
+					</td>
+					<td>
+						Chapter 6.2-6.5, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 4<br/>Tu 2/4
+					</td>
+					<td>
+						7. Game Trees: Minimax <a href="https://psu.box.com/s/sh3edeqrl931lmoum8eah4fajo2ad3w4">Slides</a>
+					</td>
+					<td>
+						Chapter 5.2-5.5, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 4<br/>Th 2/6
+					</td>
+					<td>
+						8. Game Trees: Expectimax, Utilities <a href="https://psu.box.com/s/dlh7fijjtcwmd9vdpfs09n2e2rprh61r">Slides</a>
+					</td>
+					<td>
+						Chapter 5.2-5.5, 16.1-16.3 AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 5<br/>Tu 2/11
+					</td>
+					<td>
+						9. MDPs I <a href="https://psu.box.com/s/vsvtf14x4n45o8wevzpa7fu7no475z6y">Slides</a>
+					</td>
+					<td>
+						Chapter 17.1-17.3, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 5<br/>Th 2/13
+					</td>
+					<td>
+						10. MDPs II <a href="https://psu.box.com/s/l4u9b7qdj32ti8jf4zclzza9rn3rrrc0">Slides</a>
+					</td>
+					<td>
+						Chapter 17.1-17.3, AIMA
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 6<br/>Tu 2/18
+					</td>
+					<td>
+						11. RL I <a href="https://psu.box.com/s/pc65yjz2jdo1e9mfj4x1caokb9jympax">Slides</a>
+					</td>
+					<td>
+						Chapter 21, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 6<br/>Th 2/20
+					</td>
+					<td>
+						12. RL II <a href="https://psu.box.com/s/3c3nqcnf1biizp46irn98qriq6ly4ex0">Slides</a>
+					</td>
+					<td>
+						Chapter 21, AIMA
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 7<br/>Tu 2/25
+					</td>
+					<td>
+						13. RL III <a href="https://psu.box.com/s/10p9upu4ays1t7046g1gxmqps9e1vogd">Slides</a>
+					</td>
+					<td>
+						Chapter 21, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 7<br/>Th 2/27
+					</td>
+					<td>
+						14. Probability + BN: Intro <a href="https://psu.box.com/s/0ypypj4kymqlufx3aa631ztq20ki5w41">Slides</a>
+					</td>
+					<td>
+						Chapter 13.1-13.5, AIMA
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 8<br/>Tu 3/3
+					</td>
+					<td>
+						15. BN: Representation <a href="https://psu.box.com/s/5eoqgxn128v8fruqnbsx2y57qgey7jf2">Slides</a>
+					</td>
+					<td>
+						Chapter 14.1, 14.2, 14.4, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 8<br/>Th 3/5
+					</td>
+					<td>
+						16. Midterm Exam
+					</td>
+					<td>
+
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 9<br/>Tu 3/10
+					</td>
+					<td>
+						Spring Break - No Class!
+					</td>
+					<td>
+
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 9<br/>Th 3/12
+					</td>
+					<td>
+						Spring Break - No Class!
+					</td>
+					<td>
+
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 10<br/>Tu 3/17
+					</td>
+					<td>
+						17. BN: Inference <a href="https://psu.box.com/s/lxmy0tjs7w15gcv5rhvoh0ufbdclrvy7">Slides</a>
+					</td>
+					<td>
+						Chapter 14.4 AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 10<br/>Th 3/19
+					</td>
+					<td>
+						18. BN: Independence <a href="https://psu.box.com/s/1zrasg11iy9fy7wzmuqejorzrd6fmyki">Slides</a>
+					</td>
+					<td>
+						Chapter 14.1, 14.2, 14.4, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 11<br/>Tu 3/24
+					</td>
+					<td>
+						19. BN: Sampling <a href="https://psu.box.com/s/2ipmuu9ylrp180vn1z0oe1dek6tv28v8">Slides</a>
+					</td>
+					<td>
+						Chapter 14.4-14.5, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 11<br/>Th 3/26
+					</td>
+					<td>
+						20. Decision Networks <a href="https://psu.box.com/s/9eevtm1v3zkk2nzatesg5q7uuwudh7ad">Slides</a>
+					</td>
+					<td>
+						Chapter 16.5-16.6, AIMA
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 12<br/>Tu 3/31
+					</td>
+					<td>
+						21. HMMs <a href="https://psu.box.com/s/yutr8f3mnl0k27kk5ijrwltassvdc35x">Slides</a>
+					</td>
+					<td>
+						Chapter 15.2-15.6, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 12<br/>Th 4/2
+					</td>
+					<td>
+						22. Particle Filtering <a href="https://psu.box.com/s/f9g36zfgzl1fe4zrwyyhl4tihz7qhevo">Slides</a>
+					</td>
+					<td>
+						Chapter 15.2-15.6, AIMA
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 13<br/>Tu 4/7
+					</td>
+					<td>
+						23. ML: Naive Bayes <a href="https://psu.box.com/s/n1o4jy4i2ju74lffbn8xuank4o4frgz9">Slides</a>
+					</td>
+					<td>
+						Chapter 20.1-20.2.2, AIMA
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 13<br/>Th 4/9
+					</td>
+					<td>
+						24. ML: Perceptrons and Logistic Regression <a href="https://psu.box.com/s/h6vzqhsm72ssx8a4ntiuoqj4xjg3ycp4">Slides</a>
+					</td>
+					<td>
+						Chapter 18.6.3 & 18.8, AIMA
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 14<br/>Tu 4/14
+					</td>
+					<td>
+						25. ML: Optimization and Neural Networks <a href="https://psu.box.com/s/5gb8s6ll2wfk7aprafq2gxs5xhux5x09">Slides</a>
+					</td>
+					<td>
+						Chapter 18.6.3 & 18.8, AIMA
+					</td>	
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 14<br/>Th 4/16
+					</td>
+					<td>
+						26: ML: Neural Networks II <a href="https://psu.box.com/s/posvjhg7occ3fkfp7a4lbmtz7uzy5dho">Slides</a>
+					</td>
+					<td>
+						Chapter 18.3, 18.7, AIMA
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 15<br/>Tu 4/21
+					</td>
+					<td>
+						27. Game Theory I <a href="https://psu.box.com/s/oz8qwp6s55mtm0xpo55iol17bgw4x8m1">Slides</a>
+					</td>
+					<td>
+						<a href="https://psu.box.com/s/8lbqntebg88r7mdcc0i6rugmjnyiazjm">Lecture Notes</a>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 15<br/>Th 4/23
+					</td>
+					<td>
+						28. Game Theory II <a href="https://psu.box.com/s/bvrcmg6r38en3utph99fudfqtbvoxnra">Slides</a>
+					</td>
+					<td>
+						<a href="https://psu.box.com/s/8lbqntebg88r7mdcc0i6rugmjnyiazjm">Lecture Notes</a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Week 16<br/>Tu 4/28
+					</td>
+					<td>
+						Student Presentations Week
+					</td>
+					<td>
+
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						Week 16<br/>Th 4/30
+					</td>
+					<td>
+						Student Presentations Week
+					</td>
+					<td>
+
+					</td>
+				</tr>
+
+			</tbody>
+		</table>
+
+		<p style="text-align:right">
+			Site design modified by Dr. Amulya Yadav and Yu Liang.
+		</p>
+
+
+	</div> <!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	<script src="dist/js/bootstrap.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
